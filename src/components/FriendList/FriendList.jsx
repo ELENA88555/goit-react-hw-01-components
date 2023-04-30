@@ -1,10 +1,11 @@
 import { FriendListItem } from './FriendListItem';
 import PropTypes from 'prop-types';
-// import friends from "./FriendList/friends.json";
+import css from "./FriendListItem.module.css"
+
 
 export const FriendList = ({ friends }) => {
   return (
-    <ul class="friend-list">
+    <ul className={css.friendList}>
       {friends.map(({ id, avatar, name, isOnline }) => (
         <FriendListItem
           key={id}
@@ -26,29 +27,4 @@ FriendList.propTypes = {
     })
   ),
 };
-// <!-- Довільна кіл-сть FriendListItem -->
 
-// export default function FriendList({ friends }) {
-//   return (
-//     <ul>
-//       {friends.map(({ id, isOnline, avatar, name }) => (
-//         <FriendListItem
-//           key={id}
-//           isOnline={isOnline}
-//           avatar={avatar}
-//           name={name}
-//         />
-//       ))}
-//     </ul>
-//   );
-// }
-
-// FriendList.prototype = {
-//   friends: PropTypes.arrayOf(
-//     PropTypes.shape({
-//       isOnline: PropTypes.bool,
-//       avatar: PropTypes.string,
-//       name: PropTypes.string,
-//     })
-//   ).isRequired,
-// };

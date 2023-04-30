@@ -15,8 +15,8 @@ export const App = () => {
 
       style={{
 backgroundColor: "#b1bfcc",
-marginBottom: "50px",
-padding: "30px"
+
+padding: "20px"
 
 
       }}
