@@ -1,36 +1,31 @@
 .item {
-
   display: flex;
   width: 250px;
   padding: 10px;
   align-items: center;
   background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 4px 6px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.status{
- 
-}
-
-.onlain{
+.onlain {
   margin-right: 20px;
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 4px 6px rgba(0,0,0,0.2);
-background-color: #11bd3f;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
+  background-color: #11bd3f;
 }
 
-.oflain{
+.oflain {
   margin-right: 20px;
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 4px 6px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
   background-color: #ec1212;
 }
 
-.name{
+.name {
   font-size: 25px;
   font-style: normal;
   font-weight: bold;
@@ -41,14 +36,12 @@ background-color: #11bd3f;
   margin-right: 20px;
   border: 1px solid #ccc;
   border-radius: 3px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 4px 6px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .friendList {
   margin-top: 100px;
-display: flex;
-gap: 20px;
-flex-direction: column;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
 }
-
-

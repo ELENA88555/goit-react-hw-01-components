@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import css from "./Profile.module.css"
 
 export const Profile = ({
-  username,
   tag,
+  username,
   location,
   avatar = 'https://cdn-icons-png.flaticon.com/512/1077/1077012.png',
   stats: {followers, likes, views}
